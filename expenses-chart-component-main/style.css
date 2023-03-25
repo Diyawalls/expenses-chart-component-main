@@ -1,0 +1,211 @@
+:root{
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+    
+    }
+
+
+    body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+         background-color:hsl(27, 66%, 92%);
+    }
+
+     .upper-case{
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(10, 79%, 65%);
+        color: #fff;
+         padding-right: 10px;
+        padding-top: 10px;
+        padding-left: 15px;
+        border-radius: 10px;
+
+     }
+
+ 
+     
+.lower{
+    
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 2em;
+    color: hsl(25, 47%, 15%);
+
+}
+
+     
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 28em;
+}
+
+.chart{
+    margin-top: 10px;
+}
+.bar1{
+    width:40px;
+    height: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border: none;
+    border-radius: 7px;
+}
+.bar1:hover{
+    background-color: hsl(10, 84%, 71%);
+    cursor: pointer;
+}
+
+
+.bar2{
+    width:40px;
+    height: 70px;
+    background-color: hsl(10, 79%, 65%);
+    border: none;
+    border-radius: 7px;
+}
+.bar2:hover{
+    background-color: hsl(10, 84%, 71%);
+    cursor: pointer;
+}
+
+
+.bar3{
+    width:40px;
+    height: 100px;
+    background-color:hsl(186, 34%, 60%);
+    border: none;
+    border-radius: 7px;
+}
+.bar3:hover{
+    background-color:hsl(186, 34%, 60%);
+    cursor: pointer;
+}
+
+
+
+.bar4{
+    width:40px;
+    height: 65px;
+    background-color: hsl(10, 84%, 71%);
+    border: none;
+    border-radius: 7px;
+}
+.bar4:hover{
+    background-color: hsl(10, 84%, 71%);
+    cursor: pointer;
+}
+
+
+.bar5{
+    width:40px;
+    height: 50px;
+    background-color: hsl(10, 84%, 71%);
+    border: none;
+    border-radius: 7px;
+}
+.bar5:hover{
+    background-color: hsl(10, 84%, 71%);
+    cursor: pointer;
+}
+
+
+.bar6{
+    width:40px;
+    height: 90px;
+    background-color: hsl(10, 84%, 71%);
+    border: none;
+    border-radius: 7px;
+}
+.bar6:hover{
+    background-color: hsl(10, 84%, 71%);
+    cursor: pointer;
+}
+
+
+
+.bar7{
+    width:40px;
+    height: 58px;
+    background-color: hsl(10, 84%, 71%);
+    border: none;
+    border-radius: 7px;
+}
+.bar7:hover{
+    background-color: hsl(10, 84%, 71%);
+    cursor: pointer;
+}
+
+
+
+
+.section{
+   display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(27, 66%, 92%);
+}
+
+
+.chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: flex-end;
+  
+}
+
+.amount{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    
+}
+
+h1{
+    margin-bottom: 0;
+    position: relative;
+    bottom: 15px;
+}
+
+
+ .right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+ }
+
+ 
+
+.span{
+    display: none;
+}
+
+
+
+
+.spare{
+    display: block;
+ background-color: hsl(26, 88%, 3%);
+ border-radius: 3px;
+ width: 45px;
+ font-size: 14px;
+ padding: 5px 2px;   
+ color: hsl(33, 100%, 98%);
+ font-weight: 600;
+
+ transform: translateY(-8px); /*MagginBottom*/
+
+}
